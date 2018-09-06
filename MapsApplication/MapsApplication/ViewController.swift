@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ScrollViews
+//  MapsApplication
 //
 //  Created by Bernardo Cervantes Mayagoitia on 9/6/18.
 //  Copyright © 2018 Mayago. All rights reserved.
@@ -10,14 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var scrollView: UIScrollView!
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        scrollView.contentInset = UIEdgeInsetsMake(0, 0, 100, 0)
+        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
